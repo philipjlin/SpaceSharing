@@ -1,0 +1,184 @@
+Services 
+*****
+ID: renter_service
+Name: Renter Service
+Description: Renter Management and Access
+Service Permissions: Create Renter Permission, Search for Office Space Permission, Create Booking Permission, 
+
+ID: provider_api_service
+Name: Provider API Service
+Description: Provider and Office Space Management
+Service Permissions: Create Provider Permission, Update Provider Permission, Create Office Space Permission, Update Office Space Permission, 
+
+ID: authentication_service
+Name: Authentication Service
+Description: Manage Authentication Configuration and Control Access to Restricted Service Interfaces
+Service Permissions: Define Service Permission, Define Permission Permission, Define Role Permission, Add entitlement to role, Create User Permission, Add Credential to User Permission, Add Entitlement to User Permission, 
+
+
+
+Roles 
+*****
+ID: sd_admin_role
+Name: SD Admin
+Description: Role for Square Desk Admins
+Role Permissions: Create Renter Permission, Search for Office Space Permission, Create Booking Permission, Create Provider Permission, Update Provider Permission, Create Office Space Permission, Update Office Space Permission, Define Service Permission, Define Permission Permission, Define Role Permission, Add entitlement to role, Create User Permission, Add Credential to User Permission, Add Entitlement to User Permission, 
+
+ID: provider_role
+Name: Provider Role
+Description: Role for Providers
+Role Permissions: Create Provider Permission, Update Provider Permission, Create Office Space Permission, Update Office Space Permission, 
+
+ID: renter_role
+Name: Renter Role
+Description: Role for Renters
+Role Permissions: Create Renter Permission, Search for Office Space Permission, Create Booking Permission, 
+
+ID: authentication_admin_role
+Name: Authentication Admin Role
+Description: Role for Authentication Administrator
+Role Permissions: Define Service Permission, Define Permission Permission, Define Role Permission, Add entitlement to role, Create User Permission, Add Credential to User Permission, Add Entitlement to User Permission, 
+
+
+
+Permissions 
+*****
+ID: add_entitlement_to_user
+Name: Add Entitlement to User Permission
+Description: Permission to add entitlements to a user
+
+ID: search_for_office_space
+Name: Search for Office Space Permission
+Description: Permission to search for office space
+
+ID: create_provider
+Name: Create Provider Permission
+Description: Permission to create a new provider
+
+ID: add_entitlement_to_role
+Name: Add entitlement to role
+Description: Permission to add an entitlement to a role
+
+ID: create_office_space
+Name: Create Office Space Permission
+Description: Permission to create a new office space
+
+ID: define_permission
+Name: Define Permission Permission
+Description: Permission to create a new permission
+
+ID: add_credential_to_user
+Name: Add Credential to User Permission
+Description: Permission to add credentials to a user
+
+ID: define_service
+Name: Define Service Permission
+Description: Permission to create a new service
+
+ID: update_provider
+Name: Update Provider Permission
+Description: Permission to update a provider
+
+ID: create_booking
+Name: Create Booking Permission
+Description: Permission to create an office space booking
+
+ID: create_user
+Name: Create User Permission
+Description: Permission to create create a user
+
+ID: update_office_space
+Name: Update Office Space Permission
+Description: Permission to update an office space
+
+ID: create_renter
+Name: Create Renter Permission
+Description: Permission to create a new renter
+
+ID: define_role
+Name: Define Role Permission
+Description: Permission to create a new role
+
+
+
+Registered Users 
+*****
+ID: sd_admin_user
+Name: Square Desk Admin
+User Name: sam
+Password: -906277200
+Registered User Roles: SD Admin
+
+ID: renter_user
+Name: Renter User
+User Name: lucy
+Password: 1601794
+Registered User Roles: Renter Role
+
+ID: authentication_admin_user
+Name: Authentication Admin
+User Name: jill
+Password: 2018166324
+Registered User Roles: Authentication Admin Role
+
+ID: sd_admin_user2
+Name: Square Desk Admin2
+User Name: sam2
+Password: 1970177922
+Registered User Roles: 
+
+ID: provider_user
+Name: Provider User
+User Name: joe
+Password: 1509442
+Registered User Roles: Provider Role
+
+
+
+Token Details: 
+*****
+SQUAREDESK_ADMIN_TOKEN
+Active State: true
+Date Created: Thu Nov 20 21:32:07 EST 2014
+Timeout Length (seconds) : 1800
+
+
+Search Results: 
+*****
+OfficeSpace1 is available for 10/24/14 to 10/25/14
+
+OfficeSpace3 is available for 10/24/14 to 10/25/14
+
+OfficeSpace2 is available for 10/24/14 to 10/25/14
+
+? is_facility_type house
+[officespace2 is_facility_type house, officespace1 is_facility_type house]
+
+? has_feature coffee
+[officespace3 has_feature coffee, officespace1 has_feature coffee]
+
+? has_zip 02138
+[officespace1 has_zip 02138]
+
+? has_min_rating 3.5
+[officespace1 has_min_rating 3.5, officespace2 has_min_rating 3.5]
+
+? has_city boston
+[officespace2 has_city boston, officespace1 has_city boston]
+
+? has_state ma
+[officespace1 has_state ma, officespace2 has_state ma]
+
+? has_feature wifi
+[officespace1 has_feature wifi]
+
+Perfect Matches: OfficeSpace1
+
+
+Booking Details: 
+*****
+Renter: Renter1
+OfficeSpace: OfficeSpace1
+Hours: 9:00-17:00
+Start Date: 10/28/14
+End Date: 10/29/14

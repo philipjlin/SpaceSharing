@@ -1,0 +1,19 @@
+public static void main(String[] args){
+		
+	CSVReader reader = new CSVReader(args[0]);
+
+	RegisteredUserManager.getInstance().createRegisteredUsers(reader);
+	AuthenticationService.getInstance().createPermissions(reader);
+	AuthenticationService.getInstance().createRoles(reader);
+	AuthenticationService.getInstance().createServices(reader);
+		
+	AuthenticationService.getInstance().addPermissionsToServices(reader);
+	AuthenticationService.getInstance().addPermissionsToRoles(reader);
+	RegisteredUserManager.getInstance().addRolesToUsers(reader);
+	
+	//Attempt to Login using a wrong password
+	LoginService.getInstance().login("lucy", "wrong_password");		
+}
+
+
+Login Failed: Invalid Login Information.
