@@ -8,7 +8,7 @@
 ## Description
 SquareBNB is an application that is based on popular home-sharing application AirBNB. The concept of the application is to provide a means for individuals to rent out places that they have as office space to people looking for those types of spaces. The providers can make money from their unused space, and people looking for a place to work have an alternative to traditional office spaces, bookstores, coffee shops or their own homes.
 
-Office space providers need a way to list their available spaces for rent to prospective renters, while renters need a way to search for office spaces that suit their working needs. ShareDesk provides a solution for this by connecting providers and renters through a searchable database of listings. In addition to giving providers a way to list their spaces, and renters a way to search those listings, ShareDesk also takes care of reservations through an authenticated online system.
+Office space providers need a way to list their available spaces for rent to prospective renters, while renters need a way to search for office spaces that suit their working needs. SquareBNB provides a solution for this by connecting providers and renters through a searchable database of listings. In addition to giving providers a way to list their spaces, and renters a way to search those listings, ShareDesk also takes care of reservations through an authenticated online system.
 
 Authentication is provided to so that users can only access methods that they are authorized to access - this adds a layer of security to the application.
 
