@@ -20,19 +20,17 @@ Developed in Java.
 
 
 ## High Level Components
-  * Authentication Service - describes authentication for users.
-  * Provider Service - defines functionality for providers looking to list spaces to rent out.
-  * Renter Service - defines functionality for renters looking to find spaces to rent.
-  * Knowledge Engine - Component used to store information about listed spaces and query the database of spaces for specific results based on a set of criteria.
-
-
+    * Authentication Service - describes authentication for users.
+    * Provider Service - defines functionality for providers looking to list spaces to rent out.
+    * Renter Service - defines functionality for renters looking to find spaces to rent.
+    * Knowledge Engine - Component used to store information about listed spaces and query the database of spaces for specific results based on a set of criteria.
 
 
 ## Input Files
-* inputQueries.txt - input queries to test on the knowledge engine.
-* inputTriples.txt - sample data to populate the database of shared spaces.
-* authentication.csv - defines users, roles, and authentication/authorization information.
+    * inputQueries.txt - input queries to test on the knowledge engine.
+    * inputTriples.txt - sample data to populate the database of shared spaces.
+    * authentication.csv - defines users, roles, and authentication/authorization information.
 
 
 ## Output Files
-Sample output for various use cases acheived when running the application are provided in the Sample Output folder.
+    * Sample output for various use cases acheived when running the application are provided in the Sample Output folder.
