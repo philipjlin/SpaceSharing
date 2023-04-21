@@ -12,15 +12,20 @@ Office space providers need a way to list their available spaces for rent to pro
 
 Authentication is provided to so that users can only access methods that they are authorized to access - this adds a layer of security to the application.
 
+The functionality and structure of each service layer in the application is described in design documents included in the project. UML diagrams, created in Astah were used to provide visual representations of the relationships of classes that were a part of each services.
 
-## Design Documents
-The functionality and structure of each service layer in the application is described in design documents included in the project.
-* Authentication Service Design Document - describes authentication for users.
-* Provider Service Design Document - defines functionality for providers looking to list spaces to rent out.
-* Renter Service Design Document - defines functionality for renters looking to find spaces to rent.
-* Knowledge Engine - Component used to store information about listed spaces and query the database of spaces for specific results based on a set of criteria.
 
-UML diagrams, created in Astah were used to provide visual representations of the relationships of classes that were a part of each services.
+## Technologies
+Developed in Java.
+
+
+## High Level Components
+  * Authentication Service - describes authentication for users.
+  * Provider Service - defines functionality for providers looking to list spaces to rent out.
+  * Renter Service - defines functionality for renters looking to find spaces to rent.
+  * Knowledge Engine - Component used to store information about listed spaces and query the database of spaces for specific results based on a set of criteria.
+
+
 
 
 ## Input Files
