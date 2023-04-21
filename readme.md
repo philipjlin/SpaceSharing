@@ -31,14 +31,3 @@ UML diagrams, created in Astah were used to provide visual representations of th
 
 ## Output Files
 Sample output for various use cases acheived when running the application are provided in the Sample Output folder.
-
-
-## Run Instructions
-Program runs with commands:
-
-javac squaredesk/provider/*.java squaredesk/renter/*.java squaredesk/authentication/*.java test/*.java knkowledgeengine/*.java <br>
-
-java -cp . cscie97.asn4.test.TestDriver authentication.csv <br>
-java -cp . cscie97.asn4.test.TestDriver2 authentication.csv <br>
-java -cp . cscie97.asn4.test.TestDriver3 authentication.csv <br>
-java -cp . cscie97.asn4.test.TestDriver4 authentication.csv <br>
